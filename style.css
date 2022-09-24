@@ -1,0 +1,41 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+/* .grid-row {
+  border: 1px solid rgb(8, 8, 8);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.grid-column {
+  border: 1px solid rgb(8, 8, 8);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+} */
+
+.grid-item {
+  border: 1px solid rgb(8, 8, 8);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* on hover change background color to red */
+.button {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf50;
+}
